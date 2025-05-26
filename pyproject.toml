@@ -1,0 +1,13 @@
+[project]
+name = "langchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "modal>=1.0.1",
+    "openai>=1.82.0",
+    "pydantic-ai>=0.2.7",
+    "uvicorn>=0.34.2",
+]
